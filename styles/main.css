@@ -1,0 +1,39 @@
+#greeny{
+	margin-top: 10px;
+	
+}
+
+.flot{
+	float: right;
+}
+
+.myPanel{
+	border: 1px solid  #BD180F;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 0 4px #999;
+	margin: 3%;
+}
+
+.myPanel .heading{
+	background: #CC4841;
+	border-radius: 5px 5px 0 0;
+	color: white;
+	padding: 10px 20px;
+}
+
+.myPanel .body{
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover{
+	display:none;
+}
+
+.myPanel:hover .showOnHover{
+	display: inline-block;
+}
+
+.myPanel:hover{
+	box-shadow: 0 0 8px #222;
+	border: 2px solid  #BD180F;
+}
